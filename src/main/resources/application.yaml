@@ -1,0 +1,9 @@
+logging:
+  level:
+    ROOT: ERROR
+    org.springframework: ERROR
+    dog.cyotee: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+target:
+  message: "This message comes from the target itself."
